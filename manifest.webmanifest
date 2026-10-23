@@ -1,10 +1,11 @@
 {
-  "name": "Equilibrio — Il nostro menu",
+  "name": "Equilibrio — Menu di famiglia",
   "short_name": "Equilibrio",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#101114",
   "theme_color": "#101114",
+  "description": "Menu settimanale di Manuel e Valentina",
   "icons": [
     {
       "src": "icon.svg",

@@ -1,15 +1,15 @@
-# Equilibrio — Il nostro menu
+# Menu di Famiglia — Equilibrio
 
-Web app responsive mobile-first per Manuel e Valentina, con selezione di 4 settimane, 7 giorni, schede dei cinque pasti e dettagli ricetta.
-
-## Pubblicazione
-Carica il contenuto di questa cartella in un repository GitHub e abilita GitHub Pages nelle impostazioni del repository, oppure usa un hosting statico HTTPS.
+Nuova interfaccia web responsive per Manuel e Valentina. Non contiene un calendario: si seleziona Settimana 1–4, il profilo e poi il giorno della settimana.
 
 ## File
-- `index.html`: struttura dell'app
-- `styles.css`: stile e layout
-- `app.js`: interazioni e dati iniziali
-- `manifest.webmanifest` e `sw.js`: base PWA installabile
+- index.html: struttura e interfaccia
+- styles.css: design mobile-first scuro con dettagli arancioni
+- app.js: navigazione, ricette iniziali, schede pasto e lista ingredienti
+- manifest.webmanifest / sw.js: base PWA installabile
 
-## Importante
-Questa è una prima versione funzionante della struttura e dell'interfaccia, non ancora il menu alimentare definitivo di tutte le 4 settimane. I dettagli presenti sono una base iniziale: inserire e verificare le 28 giornate e le ricette concordate rispetto ai piani originali prima di usarla come piano definitivo. La lista della spesa è predisposta ma non ancora generata automaticamente.
+## Pubblicazione con GitHub Pages
+Carica questi file nella cartella principale della repository, sovrascrivendo i vecchi file. In Settings > Pages seleziona Deploy from a branch, branch main, folder /(root), poi Save.
+
+## Nota importante sul contenuto
+L'interfaccia presenta 28 giorni selezionabili e cinque pasti al giorno, con una rotazione di ricette di base. Le quantità centrali riprendono la struttura dei piani alimentari forniti, ma la rotazione di 4 settimane e le calorie di ogni ricetta non sono state validate da un dietista. La lista spesa raccoglie ingredienti, ma non calcola ancora quantità aggregate complete per due persone. Prima di trattare il menu come piano alimentare clinicamente preciso, verificare ogni giornata con i piani originali/professionista.
